@@ -70,7 +70,7 @@ return cmd;
     
     const tle = setTimeout(async ()=>{ 
         console.log('tle');
-        resolve({result:"infinte loops may be present in code or time limit error",sucess:false});
+        resolve({result:"infinte loops may be present in code or time limit error",success:false});
        await container.stop();
      },2000);
 
